@@ -1,0 +1,6 @@
+/*
+resource "aviatrix_segmentation_network_domain_connection_policy" "segmentation_network_domain_connection_policy" {
+  domain_name_1 = aviatrix_segmentation_network_domain_association.Prod_Segmentation_Network_Domain_Association.network_domain_name
+  domain_name_2 = aviatrix_segmentation_network_domain_association.Dev_Segmentation_Network_Domain_Association.network_domain_name
+}
+*/
